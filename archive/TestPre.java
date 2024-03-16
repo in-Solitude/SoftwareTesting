@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
-//import static java.lang.constant.ConstantDescs.NULL;
+import static java.lang.constant.ConstantDescs.NULL;
 
 public class TestPre {
 
