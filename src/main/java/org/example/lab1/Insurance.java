@@ -1,9 +1,9 @@
-package testing;
+package org.example.lab1;
 
 public class Insurance {
 	/**
 	 * Calculate the premium for car insurance.
-	 *
+	 * Author Zhang
 	 * @param age     The age of the applicant (must be positive)
 	 * @param gender  The gender of the applicant ('M' or 'F')
 	 * @param married Whether the applicant is married
@@ -27,7 +27,7 @@ public class Insurance {
 				if (married || gender=='F')
 					premium -= 200;
 				if ((age>=45) && (age<=65))
-					// premium -= 100;
+					 //premium -= 100;
 					premium = premium - 100 + 1/(age-63);
 			}
 		}

@@ -1,6 +1,6 @@
 package lab1;
 
-import org.example.Insurance;
+import org.example.lab1.Insurance;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
