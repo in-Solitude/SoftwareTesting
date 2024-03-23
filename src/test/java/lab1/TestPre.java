@@ -24,6 +24,7 @@ public class TestPre {
                 {95,'M',TRUE,0},
                 {35,'Q',FALSE,0},
                 {55,'F',"SURE",0}
+
         };
     }
     @Test(dataProvider = "DataPro")
